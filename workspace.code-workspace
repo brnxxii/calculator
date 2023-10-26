@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "..\\ACT1"
+		},
+		{
+			"path": "..\\Tables and Forms"
+		},
+		{
+			"path": "..\\CSS Samples"
+		},
+		{
+			"path": "..\\ACT2EX"
+		},
+		{
+			"path": "..\\ACT2 Output"
+		},
+		{
+			"path": "..\\INTERIM1"
+		},
+		{
+			"path": "..\\JavaScript"
+		},
+		{
+			"path": "..\\ACT3P1"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\PHP"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\xampp\\htdocs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "INTERIM1",
+		"explorer.sortOrder": "type"
+	}
+}

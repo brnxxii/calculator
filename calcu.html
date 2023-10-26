@@ -1,0 +1,60 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700|Playfair+Display:400,700" rel="stylesheet">
+<link rel="stylesheet" href="calcu.css">
+<script src="calcu.js"></script>
+<title></title>
+</head>
+<body>
+<div id="wrapper">
+	<h1>Simple Calculator</h1>
+	<div class="calc-body">
+	
+		<div class="row row1">
+			<input class="btn calc-screen" type="text" id="result" value ="0" disabled>
+		</div>
+
+		<div class="row row2">
+			<button class="btn btn-add" onclick = "clearscreen()">C</button>
+			<button class="btn" onclick="backspace()"><img src="delete-left-solid.svg" alt="text" width="20px" height="20px"></button>
+			<button class="btn" onclick="percent()">%</button>
+			<button class="btn btn-function" onclick = "display('/')">/</button>
+		</div>
+
+		<div class="row row3">
+			<button class="btn" onclick = "display('7')">7</button>
+			<button class="btn" onclick = "display('8')">8</button>
+			<button class="btn" onclick = "display('9')">9</button>
+			<button class="btn btn-function" onclick = "display('*')">*</button>
+		</div>
+
+		<div class="row row4">
+			<button class="btn" onclick = "display('4')">4</button>
+			<button class="btn" onclick = "display('5')">5</button>
+			<button class="btn" onclick = "display('6')">6</button>
+			<button class="btn btn-function" onclick = "display('-')">-</button>
+		</div>
+
+		<div class="row row5">
+			<button class="btn" onclick = "display('1')">1</button>
+			<button class="btn" onclick = "display('2')">2</button>
+			<button class="btn" onclick = "display('3')">3</button>
+			<button class="btn btn-function" onclick = "display('+')">+</button>
+		</div>
+
+		<div class="row row6">
+			<button class="btn" onclick = "display('0')">0</button>
+			<button class="btn" id="decimal" onclick = "display('.')">.</button>
+      <button class="btn" onclick = "sqrt()">&radic;</button>
+			<button class="btn btn-function" onclick = "calculate()">=</button>
+		</div>
+	</div>
+
+</div>
+	<footer>
+	<small>Watermarked by <a href="https://www.facebook.com/bombiobrian">&#169;Brian Bombio</a></small>
+	</footer>
+<script src="https://use.fontawesome.com/83fc84333f.js">
+      </script>
+    </body>
+  </html>
